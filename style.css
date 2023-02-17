@@ -4,21 +4,31 @@ body {
 
 .cards {
     width: calc(100% - 6rem);
-    margin: auto;
+   
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 30px 0;
+    
+    margin: auto;
 
+}
+.card {
+    box-shadow: 0 4px 4px 4px rgb(236, 89, 177);
 }
 
 .cards-image {
 
-    display: block;
     width: 100%;
-   
+    height: 250px;
+ display: block;
+     
 }
 
-.card {
-box-shadow: 0 4px 4px 4px rgb(236, 89, 177);
+.card-content {
+
 line-height: 2rem;
 padding: 15px;
-}
+background-color: rgb(10, 115, 115);
+font-size: 1.5rem;
+}  
